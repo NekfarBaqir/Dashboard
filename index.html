@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Fancy and Mind Blowing Dashboard!</title>
+    <!-- stye links embedded -->
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/css/bootstrap-rtl.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!-- layout of the dashboard -->
+    <header>
+      <nav class="navbar container">
+        <ul class="nav topNav">
+          <li class="nav-item">
+            <a href="" class="nav-link titleOfDashboard">
+              <span>d</span>
+              <span>r</span>
+              <span>a</span>
+              <span>o</span>
+              <span>b</span>
+              <span>h</span>
+              <span>s</span>
+              <span>a</span>
+              <span>D</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <lable>
+              <img src="./src/img/icons8_search.svg" width="30" alt="" />
+            </lable>
+            <input type="text" class="searh" placeholder="جستجو" />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link notification">
+              <span class="notify-cover">
+                <span class="notify-counter">1</span>
+                <img
+                  src="./src/img/icons8_bell.svg"
+                  width="30"
+                  alt=""
+                  srcset=""
+                />
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="notification-box">
+      <div class="bordered-notification w-100">
+        <p class="text-center py-1">پیام ها</p>
+        <a href="#" >
+          <div class="w-90 m-auto messageCard">
+            <img src="./src/img/p.svg" class="card-img img-fluid" alt="" />
+            <p class="message">آقای علی! من در قسمت ترانزکشن به مشکل خوردم لطفا چک نماید</p>
+            </div>
+        </a>
+        <a href="#" >
+          <div class="w-90 m-auto messageCard">
+            <img src="./src/img/person.svg" class="card-img img-fluid" alt="" />
+            <p class="message">آقای ادمین! من در نمی توانم پروفایلم را ببینم</p>
+            </div>
+        </a>
+        <a href="#" >
+          <div class="w-90 m-auto messageCard">
+            <img src="./src/img/p.svg" class="card-img img-fluid" alt="" />
+            <p class="message">آقای علی! من در قسمت ترانزکشن به مشکل خوردم لطفا چک نماید</p>
+            </div>
+        </a>
+       
+          
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="row w-100">
+        <div class="col-sm-12 col-md-3 col-lg-2 mySide ">
+          <div class="user-profile text-center mt-3">
+            <img src="./src/img/p.svg" class="profile-pic p-2" width="70" alt="">
+            <p class="text-light my-2 pb-2 admin-name">علی صادقی</p>
+          </div>
+          <ul class="nav flex-column px-1">
+            <li class="nav-item  p-2">
+              <a href="#" class="activeMenu">
+                <i class="fa fa-home px-2"></i>
+                گزارشات
+              </a>
+            </li>
+            <li class="nav-item p-2">
+              <a href="#">
+                <i class="fa fa-product-hunt px-2"></i>
+                مدیریت محصولات
+              </a>
+            </li>
+            <li class="nav-item p-2">
+              <a href="#">
+                <i class="fa fa-user px-2"></i>
+                مدیریت یوزر ها
+              </a>
+            </li>
+            <li class="nav-item p-2">
+              <a href="#">
+                <img src="./src/img/logout.svg" width="35" class="mx-1" alt="" srcset="">
+                خروج ازسیستم
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-9 col-lg-10 bg-light mainPane">
+          <div class="container my-4">
+            <p class="title p-2 px-3">گزارشات یک ماهه ویبسایت شما</p>
+            <div class="row w-100">
+              <div class="col-sm-12 col-md-3 col-lg-3 mt-2">
+                <div class="card w-100 reportCard mx-auto" style="width: 18rem;">
+                  <img src="./src/img/Wallpaper (710).jpg" class="card-img-top img-fluid w-100" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">سایت شما دیده شد</h5>
+                    <p class="card-text">نمودار فوق مقدار یوزر ها شما رادر طور یک هفته اخیر نشان میدهد</p>
+                    <a href="#" class="btn btn-outline-warning">گوگل انالیتیک</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 mt-2">
+                <div class="card w-100 reportCard mx-auto" style="width: 18rem;">
+                  <img src="./src/img/Wallpaper (159).jpg" class="card-img-top img-fluid w-100" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">مقدار فروش  شما</h5>
+                    <p class="card-text">نمودار فوق مقدار فروش محصولات  شما رادر طور یک هفته د</p>
+                    <a href="#" class="btn btn-outline-warning">گوگل انالیتیک</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 mt-2">
+                <div class="card w-100 reportCard mx-auto" style="width: 18rem;">
+                  <img src="./src/img/Wallpaper (22).jpg" class="card-img-top img-fluid w-100" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">پرفروشترین محصولات شما</h5>
+                    <p class="card-text">شما میتوانید پرفروشترین محصولات تان را ببیندی و نظر بدهید</p>
+                    <a href="#" class="btn btn-outline-warning">دیدن </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-3 mt-2">
+                <div class="card w-100 reportCard mx-auto" style="width: 18rem;">
+                  <img src="./src/img/Wallpaper (710).jpg" class="card-img-top img-fluid w-100" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">سایت شما دیده شد</h5>
+                    <p class="card-text">نمودار فوق مقدار یوزر ها شما رادر طور یک هفته اخیر نشان میدهد</p>
+                    <a href="#" class="btn btn-outline-warning">گوگل انالیتیک</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- the table of contents -->
+          <div class="contain">
+            <p class="SecondTitle py-2 px-3">بهترین مشتریان شما</p>
+            <table class="table table-dark table-hover" style="z-index: 2;">
+              <thead>
+                <tr>
+                  <th scope="col">آی دی</th>
+                  <th scope="col">نام</th>
+                  <th scope="col">تخلص</th>
+                  <th scope="col">ایمیل</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>منصور</td>
+                  <td>جلال</td>
+                  <td>mansorjalal@gmail.com</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>شمس</td>
+                  <td>زاهد</td>
+                  <td>shamz@gmail.com</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2"></td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="src/js/jquery-3.5.1.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/index.js"></script>
+    <script src="src/js/vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".reportCard"),
+      {
+        max:25,
+        speed:400,
+        "max-glare":1
+      })
+    </script>
+  </body>
+</html>
